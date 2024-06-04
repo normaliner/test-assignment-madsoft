@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 20px;
+}
+
+#root {
+	height: 100vh;
+}
+
+input,
+textarea {
+	outline: none;
+	border: 1px solid black;
+	&:focus {
+		outline: rgba(243, 0, 0, 0.5);
+		border-color: rgba(243, 0, 0, 0.5);
+	}
+}

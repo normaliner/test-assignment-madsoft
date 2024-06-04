@@ -1,0 +1,14 @@
+.wrapper {
+	@apply shadow-md p-10 relative; 
+	width: 900px;
+	height: 650px;
+	.button {
+		@apply mt-4 flex items-center justify-center border-none py-2 px-12 rounded-lg  text-lg absolute bottom-6 hover:bg-red-700;
+	}
+	.buttonAllowed {
+		@apply bg-red-600 text-white;
+	}
+	.buttonNotAllowed {
+		@apply bg-gray-400 text-gray-700 cursor-not-allowed;
+	}
+}
